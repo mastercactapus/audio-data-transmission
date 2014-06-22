@@ -1,0 +1,3 @@
+#!/bin/bash
+paplay -r --raw --format float32le
+
