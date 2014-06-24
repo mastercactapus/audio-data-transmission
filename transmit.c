@@ -2,14 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "transmit.h"
+
 #define SAMPLE_RATE 44100.0d
 #define AMP 0.8d
 #define FREQ 440.0d
 
-int main();
-void tone(double frequency, double milliseconds, double amplitude);
-void generate_tone(double frequency, double amplitude, float *buffer, unsigned int length);
-void gen_byte(double frequency, double bitrate, char value);
 
 
 int main() {
