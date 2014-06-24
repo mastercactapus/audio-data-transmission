@@ -1,7 +1,13 @@
 Requirements
 ------
 install `makeheaders` from the aur
-run `make` to build
+
+Build
+---
+`make clean` to clean
+
+`make build` to build
+
 
 Usage
 -----
